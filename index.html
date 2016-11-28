@@ -17,16 +17,23 @@
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
 
             Name:
-            <input type="text" name="name"><br> 
+            <input type="text" name="name" required><br> 
             E-mail:
-            <input type="email" name="email"><br>
+            <input type="email" name="email" required><br>
             Period:
-            <input type="period" name="period"><br><br> <!--Two br tag makes 2 line break-->
+            <input type="period" name="period" required><br><br> <!--Two br tag makes 2 line break-->
 
             <!--add your own inputs below-->
-            1) Which one do you prefer more? <br>
-            <input type="radio" name="food" value="savory">savory<br>
-            <input type="radio" name="food" value="sweet">sweet<br>
+            1) Which one do you prefer more?<br>
+            <input type="radio" name="food" value="savory">Savory<br>
+            <input type="radio" name="food" value="sweet">Sweet<br>
+            
+            2) Which of the following are your favorite food?<br>
+            <select name="type of food">
+                <option value="Ice Cream" selected>Ice Cream</option>
+                <option value="French Fries">French Fries</option>
+                <option value="Ramen">Rame</option>
+            </select> 
             
 
             <!--add your own inputs above-->
