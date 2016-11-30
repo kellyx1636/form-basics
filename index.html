@@ -15,28 +15,27 @@
         <h1>Form Basics</h1>
         <hr>
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
-
-            Name:
-            <input type="text" name="name" required><br> 
-            E-mail:
-            <input type="email" name="email" required><br>
-            Period:
-            <input type="period" name="period" required><br><br> <!--Two br tag makes 2 line break-->
+            <!---I used require and place holder here-->
+            <input type="text" name="Name" placeholder="Name" required><br> 
+            <input type="email" name="Email" placeholder="Email" required><br>
+            <input type="period" name="Period" placeholder="Period" required><br><br> <!--Two br tag makes 2 line break-->
 
             <!--add your own inputs below-->
+            
+            <!--Radio-->
             1) Which one do you prefer more?<br>
             <input type="radio" name="food" value="savory">Savory<br>
             <input type="radio" name="food" value="sweet">Sweet<br>
             
+            <!--Select-->
             2) Which of the following are your favorite food?<br>
             <select name="type of food">
                 <option value="Ice Cream" selected>Ice Cream</option>
                 <option value="French Fries">French Fries</option>
                 <option value="Ramen">Ramen</option>
                 <option value ="Waffles">Waffles</option>
-            </select> 
+            </select> <br>
             
-
             <!--add your own inputs above-->
 
             <input class="blue-button" type="submit" value="Submit">
